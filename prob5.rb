@@ -10,7 +10,7 @@ Task: Define a custom exception class InvalidAgeError
 '''
 
 class InvalidAgeError < StandardError
-  def initialize(msg="Error:Invalid Age")
+  def initialize(msg="InvalidAgeError: Age cannot be negative.")
     super
   end
 end
