@@ -14,5 +14,4 @@ numbers.each do |element|
 
 triple = Proc.new { |x| x * 3 }
 num =  (numbers.map(&triple))
-num.join(',')
 print(num)
